@@ -13,4 +13,4 @@ We then proceed to deal with the issue of a dynamic hedge ratio to capture the v
 We calulate a Rolling OLS regression of the two securites with a look-back window of 20 days. This lookback window helps reduce look ahed bias as 
 we have a rolling window of in-sample data.
 
-
+Using a Bollinger Band strt
