@@ -9,8 +9,9 @@ Using the YFinance library we can download the prices of the gold (GLD) and gold
 
 
 Using Ordinary Least Squares regression on the first 5 years of data (up to 31/12/22), so as to avoid look-ahead bias,  we can determine a constant hedge ratio, which is the slope of the regression, and then 
-construct a spread of the two ETF's using this constant ratio.
+construct a spread of the two ETF's using this constant ratio. Below is the spread of GDX and GLD with constant hedge ratio:
 
+![image](https://github.com/PrishalRadia/Pairs_Trading_Strat/assets/140926795/dc111af4-a245-4658-a1a1-f60cef4aa6cd)
 
 
 We then conduct an Augmented Dickey Fuller test on the the spread which will test 
