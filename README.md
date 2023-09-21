@@ -28,4 +28,7 @@ Using a Bollinger Band strategy similar to the one in the book Algorithmic Tradi
 our spread is 2 standard deviations above the rolling mean and we long the spread (buy one unit of GLD and short beta units of GDX) when the spread is 2 standard deviations 
 below the rolling mean. Exiting the positions when the spread reverts back to the rolling mean or hits the stop losses at 3 standard deviations above and below.
 
-We backtest this strategy by implementing a vectorised backtest 
+We backtest this strategy by implementing a vectorised backtest as seen on this page https://hudsonthames.org/correct-backtest-methodology-pairs-trading/
+We create our equity curve from the cumulative profit and loss of this strategy:
+
+
