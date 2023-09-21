@@ -24,4 +24,4 @@ we have a rolling window of in-sample data.
 The spread with the rolling hedge ratio can be seen below:
 ![image](https://github.com/PrishalRadia/Pairs_Trading_Strat/assets/140926795/75e2c977-a5f9-4142-8b98-21048fd61eb8)
 
-Using a Bollinger Band strategy similar to the one in the book Algorithmic Trading by Ernest Chan, we 
+Using a Bollinger Band strategy similar to the one in the book Algorithmic Trading by Ernest Chan, we short the spread (
