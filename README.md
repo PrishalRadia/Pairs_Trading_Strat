@@ -7,4 +7,10 @@ Using the YFinance library we can download the prices of the gold (GLD) and gold
 Using Ordinary Least Squares regression on the first 5 years of data (up to 31/12/22)  we can determine a constant hedge ratio and then 
 construct a spread of the two ETF's using this ratio. We then conduct an Augmented Dickey Fuller test on the the spread which will test 
 for stationarity and if this pair is sufficiently mean-reverting for us to proceed.
-The result of the test 
+The result of the test was -3.115916116809538 hence we can reject the null hypothesis at the 5% significance level and use this pair to trade.
+
+We then proceed to deal with the issue of a dynamic hedge ratio to capture the varying dynamics of the spread.
+We calulate a Rolling OLS regression of the two securites with a look-back window of 20 days. This lookback window helps reduce look ahed bias as 
+we have a rolling window of in-sample data.
+
+
