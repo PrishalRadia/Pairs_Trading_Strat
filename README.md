@@ -35,7 +35,7 @@ We create our equity curve from the cumulative profit and loss of this strategy:
 
 We can calculate daily returns in a similar manner to Ernest Chan by dividing the daily PnL by the gross market exposure ( sum of the absolute values of our positions)
 and we get an annual return of roughly 65% and an annual Sharpe ratio of 1.623. Hence this strategy seems promising but we are yet to factor in trading costs and margin for short selling.
-Doing this will definitely have a significant impact on our results. Also this methodology is prone to data-snooping bias and overfiiting as the results are highly sensitive to the length of our lookback window.
+Doing this will definitely have a significant impact on our results. Also this methodology is prone to data-snooping bias and overfitting as the results are highly sensitive to the length of our lookback window.
 
 
 
