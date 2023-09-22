@@ -34,7 +34,7 @@ We create our equity curve from the cumulative profit and loss of this strategy:
 ![image](https://github.com/PrishalRadia/Pairs_Trading_Strat/assets/140926795/b9b203d1-88e4-4b17-ab3a-645e59ed3033)
 
 We can calculate daily returns in a similar manner to Ernest Chan by dividing the daily PnL by the gross market exposure ( sum of the absolute values of our positions)
-and we get an annual return of roughly 65% and an annual Sharpe ratio of 1.623. Hence this strategy seems promising, however these exact numbers are likely to be very inflated due to biases in this analysis. Also we are yet to factor in trading costs and margin for short selling.
+and we get an annual return of roughly 65% and an annual Sharpe ratio of 1.623. Hence this strategy seems promising, however these numbers are likely to be very inflated due to biases in this analysis. Also we are yet to factor in trading costs and margin for short selling.
 Doing this will definitely have a significant impact on our results. Also this methodology is prone to data-snooping bias and overfitting as the results are highly sensitive to the length of our lookback window.
 
 
